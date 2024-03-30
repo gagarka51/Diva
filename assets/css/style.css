@@ -1,0 +1,482 @@
+@import url('fonts.css');
+* {
+	margin: 0;
+	padding: 0;
+}
+.header {
+	max-width: 1320px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.calling {
+	background: white;
+	font-size: 20px;
+	background: rgb(229,105,105);
+	color: white;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+}
+.calling:hover {
+	background-color: rgb(179,66,66);
+}
+.logo {
+	display: flex;
+}
+.logo-block a {
+	font-family: Makcex;
+	font-size: 60px;
+	text-decoration: none;
+	color: black;
+}
+.menu {
+	display: flex;
+	align-self: center;
+}
+.menu li {
+	list-style-type: none;
+	margin-left: 70px;
+	font-family: Inter Light;
+	font-size: 20px;
+}
+li a {
+	text-decoration: none;
+	color: black;
+}
+li a:hover {
+	color: grey;
+}
+.btn-menu {
+	display: none;
+}
+.block-lady {
+	display: flex;
+	max-width: 1320px;
+	margin: 0 auto;
+}
+.lady {
+	width: 550px;
+	margin: 0 50px;
+}
+.lady-info h1 {
+	font-family: Inter Tight;
+	color: rgb(179,66,66);
+	font-size: 50px;
+	letter-spacing: 2px;
+}
+span {
+	color: deeppink;
+}
+.lady-info {
+	font-size: 20px;
+	font-family: Inter Light;
+	padding-top: 80px;
+	letter-spacing: 2px;
+	margin-left: 80px;
+}
+.information {
+	margin-top: 40px;
+}
+.maybe-inform {
+	margin-top: 20px;
+	color: rgb(179,66,66);
+}
+.button-call {
+	background: white;
+	font-size: 30px;
+	background: rgb(229,105,105);
+	color: white;
+	border: none;
+	border-radius: 10px;
+	margin-top: 70px;
+	padding: 15px;
+}
+.button-call:hover {
+	background-color: rgb(179,66,66);
+}
+.advantages-back {
+	background: rgb(191,203,226);
+	padding: 0 0 50px 0;
+}
+.advantages-back h3 {
+	max-width: 1320px;
+	margin: 0 auto;
+	font-size: 30px;
+	padding: 50px 0;
+	font-family: Inter Tight;
+	color: rgb(179,66,66);
+	text-align: center;
+}
+.advantages {
+	display: flex;
+	justify-content: space-between;
+	max-width: 1320px;
+	margin: 0 auto;
+}
+.advantage {
+	max-width: 250px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.advantage img {
+	max-width: 100px;
+	margin: 20px auto;
+}
+.advantage p {
+	color: black;
+	font-size: 25px;
+	font-family: Inter Light;
+	text-align: center;
+}
+.small-about {
+	max-width: 1320px;
+	margin: 0 auto;
+}
+.small-about h2 {
+	font-family: Inter Tight;
+	text-align: center;
+	padding: 80px 0;
+	font-size: 40px;
+	color: rgb(179,66,66);
+}
+.about-info {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+.about-info img {
+	width: 600px;
+	margin-right: 100px;
+}
+.about-info p {
+	font-size: 20px;
+	font-family: Inter Light;
+	margin-top: 100px;
+	line-height: 1.5;
+}
+.two-block img {
+	margin: 0 0 0 100px;
+}
+.services {
+	max-width: 1320px;
+	margin: 50px auto;
+}
+.services h3 {
+	font-size: 30px;
+	padding: 25px 0;
+	font-family: Inter Tight;
+	color: rgb(179,66,66);
+	text-align: center;
+}
+.services-blocks {
+	display: flex;
+	flex-wrap: wrap;
+}
+.service-block {
+	margin-right: 60px;
+	margin-top: 50px;
+}
+.right-block {
+	margin-right: 0;
+}
+.service-block img {
+	width: 400px;
+}
+.service-block p {
+	font-size: 20px;
+	font-family: Inter Light;
+	margin-top: 50px;
+	line-height: 1.5;
+	text-align: center;
+}
+.more {
+	display: flex;
+	justify-content: flex-end;
+}
+.more button {
+	font-size: 20px;
+	font-family: Inter Light;
+	margin-top: 50px;
+	text-align: center;
+	color: rgb(179,66,66);
+	border: none;
+	background: none;
+}
+.more button:hover {
+	text-decoration: underline;
+	animation-duration: 3s;
+}
+
+.call-block {
+	max-width: 1320px;
+	margin: 50px auto;
+}
+.call-block h3 {
+	font-size: 30px;
+	padding: 25px 0;
+	font-family: Inter Tight;
+	color: rgb(179,66,66);
+	text-align: center;
+}
+.connection-back {
+    border: 1px solid rgba(179,66,66,0.3);
+	border-radius: 10px;
+    max-width: 600px;
+	margin: 0 auto;
+    text-align: center;
+}
+.connection-back p {
+    font-family: Inter Light;
+    font-size: 20px;
+    padding-top: 40px;
+}
+.connection {
+	display: flex;
+	justify-content: center;
+	padding: 50px 100px;
+}
+.connect-input input {
+	padding: 10px;
+	max-width: 400px;
+	border: 1px solid rgb(229,105,105);
+	border-radius: 5px;
+	font-family: Inter Light;
+    font-size: 20px;
+	margin-right: 20px;
+}
+.connect-button input {
+	padding: 10px;
+	font-family: Inter Light;
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(229,105,105);
+	color: white;
+    font-size: 20px;
+}
+.connect-button input:hover {
+	background-color: rgb(179,66,66);
+}
+.footer {
+	background-color: rgb(179,66,66);
+}
+.footer-info {
+	max-width: 1320px;
+	padding: 50px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+.footer-menu {
+	margin-right: 200px;
+}
+.footer-menu li {
+	list-style-type: none;
+	padding: 5px;
+}
+.footer-menu li a {
+	font-size: 20px;
+	font-family: Inter Light;
+	color: white;
+}
+.contacts-footer {
+	font-size: 20px;
+	font-family: Inter Light;
+	color: white;
+}
+.address {
+	margin-bottom: 10px;
+}
+/* свойства модального окна и фона */
+
+.modal {
+  	display: none; 
+  	position: fixed; 
+  	z-index: 1; 
+  	padding-top: 80px; 
+  	left: 0;
+  	top: 0;
+  	width: 100%; 
+  	height: 100%; 
+  	overflow: auto; 
+  	background-color: rgba(0,0,0,0.4); 
+}
+.modal-window {
+	position: relative;
+  	animation-name: animate;
+  	animation-duration: 0.5s;
+  	display: flex;
+  	flex-direction: column;
+  	max-width: 500px;
+  	margin: auto;
+  	border-radius: 15px;
+  	background-color: white;
+}
+.modal-header {
+	display: flex;
+	flex-direction: column;
+}
+.modal-header .close {
+	align-self: flex-end;
+	width: 10px;
+}
+.modal-header h2 {
+	font-family: Makcex;
+	font-size: 60px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.modal-container {
+	margin: 0 auto;
+}
+.form-contact {
+	max-width: 400px;
+	margin: 0 auto;
+	height: 400px;
+}
+.form-contact label {
+	font-size: 20px;
+	font-family: Inter Light;
+}
+.form-contact .input {
+	padding: 5px;
+	font-size: 15px;
+	width: 100%;
+	margin: 12px 0;
+	border: 1px solid rgb(179,66,66);
+	border-radius: 5px;
+}
+.access-checkbox {
+	margin-top: 10px;
+}
+.access-checkbox input {
+	margin-right: 5px;
+}
+.access-checkbox label {
+	font-size: 16px;
+}
+.access-checkbox a {
+	color: rgb(179,66,66);
+}
+.btn-form {
+	display: flex;
+	justify-content: center;
+}
+.btn-form input {
+	padding: 10px;
+	margin-top: 50px;
+	font-family: Inter Light;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	background-color: rgb(229,105,105);
+	color: white;
+}
+.btn-form input:hover {
+	background-color: rgb(179,66,66);
+}
+@keyframes animate {
+  from {top:-320px; opacity:0}
+  to {top:0; opacity:1}
+}
+.close {
+    color: rgb(229,105,105);
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+.close:hover,
+.close:focus {
+    color: rgb(179,66,66);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* свойства модального окна и фона с услугами */
+
+.modal-services {
+  	display: none; 
+  	position: fixed; 
+  	z-index: 1; 
+  	padding-top: 80px; 
+  	left: 0;
+  	top: 0;
+  	width: 100%; 
+  	height: 100%; 
+  	overflow: auto; 
+  	background-color: rgba(0,0,0,0.4); 
+  	box-sizing: border-box;
+}
+.service-window h2 {
+	padding-bottom: 0;
+}
+.services-window {
+	position: relative;
+  	animation-name: animate;
+  	animation-duration: 0.5s;
+  	display: flex;
+  	flex-direction: column;
+  	max-width: 800px;
+  	margin: auto;
+  	border-radius: 15px;
+  	background-color: white;
+  	padding: 0 50px 10px;
+}
+.services-modal-container h3 {
+	font-family: Inter Light;
+	color: rgb(179,66,66);
+	font-size: 25px;
+	text-align: center;
+	margin: 20px 0;
+}
+.services-modal-container h4 {
+	font-family: Inter Light;
+	color: rgb(229,105,105);
+	font-size: 20px;
+	margin: 10px 0;
+}
+.services-modal-container p {
+	font-family: Inter Light;
+	font-size: 20px;
+}
+.service-point {
+	display: flex;
+	justify-content: space-between;
+}
+.service-point p:nth-child(2) {
+	color: rgb(179,66,66);
+}
+.modal-footer p {
+	font-family: Inter Light;
+	font-size: 20px;
+	margin: 25px 0;
+	text-align: center;
+}
+.close-services {
+	width: 10px;
+	align-self: flex-end;
+}
+
+@keyframes animate {
+  from {top:-320px; opacity:0}
+  to {top:0; opacity:1}
+}
+.close-services {
+    color: rgb(229,105,105);
+    float: right;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.close-services:hover,
+.close-services:focus {
+    color: rgb(179,66,66);
+    text-decoration: none;
+    cursor: pointer;
+}
+

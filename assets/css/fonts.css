@@ -1,0 +1,18 @@
+@font-face {
+	font-family: 'Inter Tight';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/Inter Tight/InterTight-Black.ttf');
+}
+@font-face {
+	font-family: 'Inter Light';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/Inter Tight/InterTight-Light.ttf');
+}
+@font-face {
+	font-family: 'Makcex';
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/Makcex/Makcex.otf');
+}
